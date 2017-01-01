@@ -1,0 +1,20 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "weather app",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*",
+    "bundle": "browserify main.js -o bundle.js",
+    "watch": "watchify main.js -o bundle.js"
+  },
+  "author": "MB",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "watchify": "^3.7.0"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}
